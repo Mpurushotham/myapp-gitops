@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Mpurushotham/myapp-gitops.git
     targetRevision: main
-    path: overlays/dev   # can change to prod/staging
+    path: overlays/staging   # can change to prod/staging
   destination:
     server: https://kubernetes.default.svc
     namespace: myapp
